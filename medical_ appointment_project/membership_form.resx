@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logoimage.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQsAAAC9CAMAAACTb6i8AAAABGdBTUEAALGPC/xhBQAAAThQTFRF/P7/
+        ////AGamAGSlAGKkAGCjAJbaAGinAGqoAGyp7oMRAF6iursEAFqg97cTkLLS9vr9Uoq5Knev97UA5+/3
+        YJPAoMDZ2uXxM3yzh6vNvNHk7oAA7XkAAHCtAFSeAJLZy9zrc5/Fg6jLob7ZvtLlzdzqr8beSYi6xtDh
+        sMvg6/L4AE+b++3SeKPIj7XTsrMA+/Xt86518PHb2dqT+NvD+efY+dOH8qRhv8Ao+ctusdXwcLflbZbA
+        3+CpyclT7/DVzM1l9cGa8qZi9LWF9syq0tR/8JE374sk9agA8pwA8I8Sw8RA+tqZ+/DY9sml9bNe5Oa4
+        +MFI+MZb8ZxR+uS68ZdB+LwwAHm/+MyJWYGXp7Owx7Jt1q5MPXadJ5nSkaaafqOnXJy4oKiP2IEz0Y5d
+        UarhjMXqnMvsBK/WpwAAD9xJREFUeF7tnAt7m0bahvVyMFCChWRksGxZByxU48p20jRtGm3Tbtv0lHSb
+        br92v5P7HTbZ//8P9nlnBgl0imNnU1uZ+8plhmGEmYf3NCCnptFoNBqNRqPRaDQajUaj0Wg0Go1Go9Fo
+        NBqNRqPRaDQajUaj0Wg0Go1Go9FoNBrN1SBSDbSmzXcTOurnqlUfRe+2GDSZCtCIY9V8tyyEqLCGtDWU
+        Ew8bhQLUilTfuwBljpotvZ+qaYeTWDYo6qdH744Wtbyv/IGi0bGa96iputKGar0bUDRR0w3bRZSohXJD
+        SdQvut4JTWikZl5KqoowrRfhItxgX6FQhUzk0tXTpKhojBtHqrl55FG9UGBd2lSHaJikU2/ZNCidtF5n
+        bo3BSLU2EIqMaaR8JdQ+OtzkOoPCZhEzXw1FexssBeYXF9HzEsxiymZqcpVZUbhJBnKtxRblzctHmRsP
+        xUWZeQUo72zUYp6y0dUX4km+SVKwZTTrSyrNS03yWg52E6GoWJyDc7mhe3/atGlejtLdpc+4TY8/PxON
+        Muf3v7j78V///OVXH6mOEpuoG33+NUGJH87O5szi/McnBwf7goODb36sHiTqqdYmcQ8a3Pvh7M6dx5XZ
+        nt+FDu/NONj/Sh1hqJfUx7fdMiifi3302Z2vP4QSd84r/V8eSCFgEgzvHNxVx/Ch/qDWy265FlRvNSrl
+        AT2GDOATFUAl508OpBDffHn/o/PzZ7/87dvvvn/v4M/qcI1G6e1/Ok6TLJ+Un0LQD1KKysTuCzvY379b
+        CplPd7a/O/hC7VC0CaUnpUl7VJrHY3aPO3cqM/uKjWL/4G7FVGrPdra3vy/E2Ywig2pZ6Z7S50KKe+Wp
+        /Sik+GYhjX6ws73zF9XeFMqlxU9CikoyFVZRipMzHkCMqq1sEvekh9xTu8xHQooiMFQ4hxZPVXvz+ERI
+        cefDkqWI7Pmj2pvj+c7Oz6oJUKGFZYO65XwotSiFzo+hxXKrAHCSbdWEFDGNG7e3xliI/qS0+Kk4cB8e
+        sv+x2lkAeXWnGEm91tH4ePpS4bZBw6FqFZwrLablxRN2kZXzYy2mwTNvtGq310fyVjr3QOseTOJrFkMZ
+        BpvFwX3RXEYlkdzqwpOi5mRUtYx7Z58QCTHkvBAtVnsIx87tHdW87RCFw3ol2j3mdTrx0gzrdgxgs1jy
+        qEJBkOK5am8Ac4b9+ExI8KezO2e8YoeL7P9VHlnGL9DigWpvHPTT50Ia+gmWge0X++8dlJ9SzMEu8otq
+        V4DCUmJuVMR+bZacQXQBtatQnap3rilbr8djVXESgihkuQstVhfZvDibptQyebvdFq9aKer1enK1Iy6u
+        DHcu9IrOMuIM1XcOFKNriH+V3pzHoVf9trg/7stvFOXDePqtu6tB55+d3aN/Q0ZVHczc1bJZPFTtMhTb
+        li8eclF6YvviiQDFu1mZXTE/ygZ7ZQbiba5QpWBwaAf8Wk7tMqPANm3b9iq97RM7OPVtX665KUpMayB+
+        xe6J5TdE59Whx7XaN/uzcIHfF0HhEFvZgWixvfOBbJfgCzsynQFvqXZsGVKL3cCaYZqBeANBY9soE/Cr
+        FkonfcUE9z41DBRw1GgpBhQ2HCdK3CZ6j2CBgiEdm+Zu7jqYtvjNPdPYE41a23Re66sUK3iyv6/WpxB+
+        4liWbVudujRZLMyWZZEcekWZ6fRZOIz0Cy18NV/G8SypxZ7X8Tyvw/DGEVr0bVNgGHZGMDKhxcR0HP6o
+        NSLaM4xay2EtksA0WVwYX2SZu5RAC+qxsbUcd1THNiWy34gWH+/L6oIodW3HsJxm07Fsf8zl5a9LzYLS
+        AOZrep6DjZ9MtZA3q2DXkFpwb9Phd3bUtsw2NtxXH0kS15xqAYUMt8GM4TfQosFawLAcjyWyy1rs+pDR
+        8VzXMEwbJ2ctKs59Jb6U8YKGTcsznMEQDhL2Hv1mehH9zFIsJlRoYeFOOwb/KGtRhjJTaYE2a8Fdlll8
+        e5KlYSBPSYuBYeWim5tTLVLTPA7zPA9LWmTNxPVck68hSSbQwm3k0bVfdKK+QB6h1Hddvy4jBX7EW7+5
+        D1mKX9WwEpQPjwzPGmeQYo/jt2/gRs5dx0wLHFJ2cSzsQhxWcFdVi4gH4jPsI1MtcCbRO9UCA3qm28yp
+        7xinfMT23OuHT6479/9GA9szklJeo3Cr+++sxbJ0S3RqGgickY3ghs/4brI3mFvJU2rYMufGw7jjJPFw
+        GNcN8zQelr8VNK8FAgBcZEKNRtOtaiFGz7RAcHFwfqqZbof3oIVpXz9koMD47j8Cz+rztKZ88J/d7n/t
+        LMkhDI0cGwZJLcdn/Xy+kDk3gZfbIuXTOLA9z0VosWHQpnUoFC++VIvMUNHCMxAom2SbiATLtHAmWVNq
+        0XEt7hq5Ps4FH0nq1aXGCiqTXOCjg/e+3/7vQGTqKU93di66vy+vOHFCWCRfz0Dee9/tNDvsJmWabDM8
+        qM+Rtgi1ti20CC2ZWDpQsWoXLaTZAbX6yXItPMf03EIL3jSUFpeLnSgF1tdkMIxvd34vD/kACWTnf7r/
+        u0IK5DnX501f3nsZLwaunJ7C5fx5jP48jgAqgBFvo1i8oK5DG5lVgyXxAszHC/FrI8tlhBYtx4KPUOEj
+        l8mpFKaJLPVWQk/2v0d1qSIDPXv66w5Hiv/rvlh1ehobcFwKDc/kISKPzGoqeITYmgbmiQpEkJnuSDU5
+        YsBsHFmdppj9TAtzGAqqeWRZvDiynYSHmeKTl9GC4pPWeNJeN45y5//3v93e2Xn+8MGDh8/RgBL4+fsa
+        LWLfc9rxyLFOeYjU4nivLthzXE+26ntDaviiCrVgB65sWYc9jEZslAYAy55qkVnSWBAFX6UFvAMxpWM6
+        Hb7Rl6y1ci4O142jXcv5+wFbggA6cPP5s0fdRys/xinYtB1TrgxkfaFmRhwLVBOMfBElyigthEkJCi1q
+        YUeWo/4ltKjVWj5GIq/ykctpIa5ItZdCDcOt3X/yrVRBKLL94FmNumu0qFHbQzxEXuWdSq1FObRQbeyJ
+        GFEllj4ytQtOzlILqh1lxyDr0cAyaw1zpoUcV9GC4tM6Doj24fWLC0EHoQ8110OECcjw689POZFSr9v9
+        dM3peRVXPAWeaiEueGYXsitWSysFFwXoRrxAySHoHbccqYU6A5OOGjQY8c2G5zhjoVDacCpalBDromtD
+        uY1qUDTPQXFGerHVXXd6cQWqXWgRpsyp4XqikYqQTfXK6hWLB9GbOKLkYCzT8KZayPCKqcF+IlFVUxQg
+        kwoQq2daUF+taiWl76JdGTgrJ8bS1BiYxdbK0AlwRR1TejEbqNCC8oAXlBwlsUW2lLVWfbZmdxyx4Ba9
+        KqYy5sidapGU44vP+RJOggKM6bTcshaJpU4LHPMy8eJV0NBCDUm9ixflpQ1dbHUR4lZCWeLahRap/EM9
+        ynm1VuB6trQrYUGKmjE1cA7pkmgaL9CdlDRy+fkFd5LMswhFFbvgel0yci8VOwXF318ugSLfh+N3t8op
+        lF6uNwuMKK9DC5MSlyxBLSS1oHQwY1zYhfjQlCKPoFfpwww9pUXBfOyckV8uj/BncmqvLjFCFz7yaXer
+        NHneXRstMKSkxTJmWvR9lF3qTpuOWWhRoqRFeYK1jsipM+a0mAHDupwWFIVH49Hq0EIT+yU9wuSnKVRI
+        sS6JAKnFFNU7Y6oFV+pua1KwLMaVtSgR/iu0aIzqa16C0tDv5ltbW92XcgyxgxQ7K4EWRr03ZWF0SYux
+        Y8VKMiCOVnl7WqB0X/86mFq/XbAW/+BRHEUvIQVKbtszlOVblr8wvKTFAEl2xqwOm/IWtRALwzVQ2IEU
+        7BXg0xdQ4lUOAij3bCUEWKJFw5c5FaqJVFvgiMMVKA78ZX+q41gip05BpRHsUlO9EyiBA/aSOHQViF0E
+        8eLTly+6rMSjyzw4ROFZYuEDdJRlanlMQ64aFVlbdlbIs6z6VkiCVWy1N8yymNrZYswO0yWda1k5mlgL
+        iCB4BOdW/esR7q9QXSVKnXJIgeqssLx7sZd7lo5dcd6V0KrlKuXIqFtbFxcXL14itmAUTv16575lUL2v
+        jHYeLrhhFj1WgCVAQXL0inh7uwkHrVV/js31hIidajduYFHgL4nsJZRseV7WV+5JSdHOy9XubE9+8g+E
+        kthbVW9xQTHTglLb9JPRWjGIjgeniCuRa4uXwqeOBxVoZCUQQTy6G7pW3eFMIpQBbdOXVUiI8nr1md8G
+        VO8sC9UCrjqnWtCxbzUiTNPz16STUdCx+KntkF+QY6aWgZ81ghYUnwS+HRy3g2EdWqSHpulbhn0S1gOp
+        Rd4JFpLiWwaLEtVaQGkha63ctutsxJRhrvL4ArQXwMaSIBJa0DhJXC9JWpAEdoEVGlbkvWOpRXzseVnL
+        GmS1QgvUuW+oFngDLFyI0kLUmjS2ZFRBAbTyT5XJQxFEbQjSYy3S/thx+31IyFqE6e7uKMiPrWbH59q7
+        49Gpj6XLVIvejdGCwoUlq9JCrM1Cx5YZBLe8+vqoBNmYMwacCi3YR3wL4vViAz6SH2JhOoKrTUbQgt8r
+        sRbDXl/FC0pNtp6bACXpfFCUWmxdoBuTU39SRqm/2kdGPiLKIDiSWuBTNhatycmhyxoR6u8YlbfwEaVF
+        r3No2UILoqYh3y7+4VC/N54vV5UWXZ5VFiizIbZw0VoEEjTbpz6MQNpF1GkmXpRHEewC9pHgHHNaHEXR
+        HtsFUdjyB4bHzqNO9odBvcH7C39LKHOqeHoDLaRSVLfWRHvCfQ4mKFFZi3xsB8PY9vsRwfppdJiwBMcn
+        vb3D+XiRZ2MzmFDbD1q7K9Pa24KGrekUp9ciay3xgJOOEATQQ5ntr7tYTqA8TsTOQT9HmBj3SWgR82tO
+        bOrRsJ5T1PO83tg67YmcCu9p8W/JBwbbzB/M7MlnOAiLhaSowUUioZpj4maGY9uSUWWFLYctpA3+5AkC
+        LDLJeCzkCZq81/I6ruN2vGYn4m/52UFgBydHp5xHWCV8HD9vVI1Pk0ZRP4dSixeok8PUt0Yjw7T6w/eZ
+        YRyVq+wCGIRIjLlYbFPsBKL6zkSwIc9MszTNOI+EiCICUV9U4RPdDKgzDRx0wWJ0t8Ts9wzLtpupaAuK
+        /2urDOUoEmYzosTirzcVe01bGEBfxM4CaBFWvuop0sqNgFqz/+qEei+gxSM19/exmoCFRBF/X0ws4ReB
+        FiN5x4XPQYtY7oq9jqhRpBYFrEVuqi9nMM6beNP1RqD6sJQnMGFMWr3a4Fup+lcTBvYhcyLOgpgo9g5P
+        hKskNuKF65rie60Kqp/cWB+h8FqBnOIjicw2odoT/2EdRWKpmmVlL6Bhuvgk8MZwvStT97a4u2pH7ql2
+        9c7P7Wo0Go1Go9FoNBqNRqPRaDQajUaj0Wg0Go1Go9FoNBqNRqPRaDQajUaj0Wg0Go1G81ao1f4JvkRz
+        9XFsEuYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="logoimage.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        9XFsEuYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>개인정보 처리방침
+공유상세 열기현재 페이지 프린트
+「개인정보보호법」은 개인정보의 취급에 대한 일반적 규범을 제시하고 있으며, 수원시에서는 이러한 법령의 규정에 따라 수집 · 보유 및 처리하는 개인정보를 공공업무의 적절한 수행과 이용자의 권익을 보호하기 위해 적법하고 적정하게 취급할 것입니다.
+
+수원시는 개인정보 보호법 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립·공개합니다.
+
+또한, 수원시는 관련 법령에서 규정한 바에 따라 보유하고 있는 개인정보에 대한 열람, 정정·삭제, 처리정지 요구 등 개인정보주체의 권익을 존중하며, 개인정보주체는 이러한 법령상 권익의 침해 등에 대하여 행정심판법에서 정하는 바에 따라 행정심판을 청구할 수 있습니다.
+
+이 방침은 별도의 설명이 없는 한 수원시에서 처리하는 모든 개인정보파일에 적용됩니다. 다만, 소관업무처리를 위해 각 부서 및 소속기관에서 별도의 개인정보 처리방침을 제정, 시행하는 경우에는 그에 따르고, 해당 부서 및 소속기관에서 운영하는 홈페이지에 게시함을 알려드립니다.
+제1조 (개인정보의 처리목적)
+① 수원시는 각 개인정보 파일별 처리 목적을 위하여 개인정보를 수집합니다. 처리하고 있는 개인정보는 해당 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.
+ 
+
+② 개인정보보호법 제32조에 따라 등록·공개하는 수원시의 개인정보 파일별 개인정보 처리목적은「개인정보보호 종합포털」에서 공개하고 있습니다.
+ 
+
+※ 개인정보보호 종합포털(www.privacy.go.kr) → 개인정보민원 → 개인정보의 열람 등 요구 → 개인정보파일 목록 검색 → 기관명에 “수원시” 입력 후 조회
+ 
+
+※ 개인정보보호 종합포털(www.privacy.go.kr) 바로가기
+
+※ 수원시 개인정보파일 목록 [새창열기]
+
+제2조 [개인정보의 처리 및 보유기간]
+① 수원시는 법령에 따른 개인정보 보유․이용기간 또는 정보주체로부터 개인정보를 수집시에 동의받은 개인정보 보유․이용기간 내에서 개인정보를 처리․보유합니다.
+ 
+
+② 개인정보보호법 제32조에 따라 등록·공개하는 수원시의 개인정보 파일별 개인정보 처리 및 보유 기간은 「개인정보보호 종합포털」에서 공개하고 있습니다.
+
+제3조 [개인정보 수집에 대한 거부]
+① 개인정보주체는 개인정보 수집 동의에 대해 거부할 권리가 있습니다. 다만 개인정보 수집에 대한 동의를 거부하시면 일부 서비스에 대한 이용이 제한될 수 있습니다.
+
+제4조 [개인정보의 제3자 제공]
+① 수원시는 원칙적으로 정보주체의 개인정보를 제1조(개인정보의 처리 목적)에서 명시한 범위 내에서 처리하며, 정보주체의 동의, 법률의 특별한 규정 등 개인정보보호법 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다. 
+ 
+
+② 수원시는 타 기관에 개인정보를 연계·제공하거나 목적 외의 용도로 제 3자에게 제공하는 경우, 개인정보를 이용하거나 제공받는 자에게 이용 목적, 이용 방법, 이용 기간, 이용 형태 등을 제한하거나, 개인정보의 안전성 확보를 위하여 필요한 조치를 마련하도록 문서로 요청하며, 연계·제공되는 개인정보는 이용 및 제공목적에 맞게 최소한으로 제공합니다. 또한 연계·제공되는 개인정보의 보유기간을 명확히 지정토록 하고 있습니다.
+ 
+
+③ 수원시는 연계·제공과 관련하여 연계·제공받은 기관이 다른 기관에게 임의로 개인정보를 재제공한 사실이 확인된 경우에는 정보제공을 중단합니다.
+ 
+
+④ 수원시 개인정보의 제3자 제공 목록은 다음과 같습니다.
+
+※ 수원시 개인정보의 목적 외 이용 및 제3자 제공현황 [새창열기]
+
+제5조 [개인정보처리의 위탁]
+① 수원시는 원활한 개인정보 업무처리를 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.
+ 
+
+※ 수원시 개인정보처리의 위탁 현황 [새창보기]
+
+ 
+② 수원시는 위탁계약 체결시 개인정보보호법 제26조((업무위탁에 따른 개인정보의 처리 제한)에 따라 위탁업무 수행목적 외 개인정보 처리금지, 기술적․관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리․감독, 손해배상 등 책임에 관한 사항을 표준위탁 계약서 등 문서에 명시하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.
+ 
+
+③ 위탁업무의 내용이나 수탁자가 변경될 경우에는 지체없이 본 개인정보 처리방침을 통하여 공개하도록 하겠습니다.
+
+제6조 홈페이지 개인정보 처리방침
+① 수원시가 운영하는 모든 홈페이지의 링크 또는 배너를 클릭하여 해당 홈페이지로 옮겨갈 경우 해당 기관이 게시한 개인정보 처리방침이 적용되므로 방문한 해당 홈페이지의 개인정보 처리방침을 확인하시기 바랍니다.
+
+제7조 [처리하는 개인정보 항목]
+① 수원시는 최소한의 개인정보를 수집하기 위하여 필수항목과 선택항목을 구분하여 수집하고 있습니다.
+
+ 
+② 개인정보보호법 제32조에 따라 등록·공개하는 수원시의 개인정보파일별 개인정보 항목은 「개인정보보호 종합포털」에서 안내하고 있습니다.
+
+제8조 [정보주체의 권리·의무 및 행사방법]
+① 정보주체(만 14세 미만인 경우에는 법정대리인을 말함)는 수원시에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있습니다.
+ 
+
+1. 개인정보 열람요구
+ 
+
+2. 오류 등이 있을 경우 정정 요구
+ 
+
+3. 삭제요구
+ 
+
+4. 처리정지 요구
+ 
+
+② 위 제1항에 따른 권리 행사는 수원시에 서면(방문접수) 또는 개인정보보호 종합포털(www.privacy.go.kr) 내 온라인 신청을 통하여 요구하실 수 있으며 수원시는 이에 대해 지체없이 조치하겠습니다. 다만, 다음의 경우 청구사항에 대하여 제한하거나 거부할 수 있으며, 이 경우 ‘10일 이내’에 정보주체에게 안내하여 드립니다.
+ 
+
+1. 법률에 따라 열람이 금지되거나 제한되는 경우
+ 
+
+2. 다른 사람의 생명·신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖에 이익을 부당하게 침해할 우려가 있는 경우
+ 
+
+3. 다음 항목의 업무를 수행할 때 중대한 지장을 초래하는 경우
+ 
+
+가. 조세의 부과·징수 또는 환급에 관한 업무
+ 
+
+나. 「초·중등교육법」 및 「고등교육법」에 따른 각급 학교, 「평생교육법」에 따른 평생교육시설, 그 밖의 다른 법률에 따라 설치 된 고등교육기관에서의 성적 평가 또는 입학자 선발에 관한 업무
+ 
+
+다. 학력·기능 및 채용에 관한 시험, 자격 심사에 관한 업무
+ 
+
+라. 보상금·급부금 산정 등에 대하여 진행 중인 평가 또는 판단에 관한 업무
+ 
+
+마. 다른 법률에 따라 진행 중인 감사 및 조사에 관한 업무
+ 
+
+4. 특정 정보주체의 화상정보만을 삭제하는 것이 기술적으로 현저히 곤란한 경우
+ 
+
+5. 기타 열람 등의 요청을 제한하거나 거절할 만한 정당한 공익적 사유가 존재하는 경우
+ 
+
+③ 정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 수원시는 정정 또는 삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다.
+ 
+
+④ 정보주체 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하여야 합니다.
+ 
+
+⑤ 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.
+ 
+
+⑥ 수원시는 정보주체 권리에 따른 열람·정정·삭제·처리정지의 요구 시 요구한 자가 본인(정당한 대리인)인지를 확인합니다.
+ 
+
+※ 개인정보(열람, 정정·삭제, 처리정지) 요구서 [다운로드]
+ 
+
+※ 위임장 [다운로드]
+
+제9조 [개인정보 열람청구 및 절차]
+① 정보주체는 개인정보 보호법 제35조에 따른 개인정보의 열람 청구를 담당부서에 하실 수 있습니다. 수원시는 정보주체의 개인정보 열람청구가 신속하게 처리되도록 노력하겠습니다.
+  1. 열람청구 접수 : 정보통신과(접수 전 사전검토) → 시청 민원실(접수)
+  2. 처리부서 : 해당 개인정보 담당부서
+ 
+
+② 정보주체는 제1항의 열람청구 접수·처리부서 이외에, 행정안전부의 개인정보보호 종합포털 웹사이트(www.privacy.go.kr)를 통해서도 개인정보 열람청구를 하실 수 있습니다.
+
+※ 개인정보보호 종합포털(www.privacy.go.kr) → 민원마당 → 개인정보 열람 등 요구
+
+③ 개인정보 열람청구는 아래와 같이 처리됩니다.
+절차안내
+ 
+
+제10조 [개인정보의 파기]
+① 수원시는 개인정보 보유기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다.
+ 
+
+② 정보주체로부터 동의받은 개인정보 보유기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보(또는 개인정보파일)을 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다.
+ 
+
+③ 개인정보 파기의 절차 및 방법은 다음과 같습니다.
+ 
+
+1. 파기절차
+ 
+
+수원시는 파기하여야 하는 개인정보(또는 개인정보파일)에 대해 개인정보 파기계획을 수립하여 파기합니다. 수원시는 파기 사유가 발생한 개인정보(또는 개인정보파일)을 선정하고, 수원시는 개인정보 분야별책임자의 승인을 받아 개인정보(또는 개인정보파일)을 파기합니다.
+ 
+
+2. 파기방법
+ 
+
+수원시는 전자적 파일 형태로 기록·저장된 개인정보는 기록을 재생할 수 없도록 로우레벨포멧(Low Level Format) 또는 파쇄 등의 방법을 이용하여 파기하며, 종이 문서에 기록·저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다.
+
+제11조 [개인정보의 안전성 확보조치]
+① 개인정보보호법 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적/관리적 및 물리적 조치를 하고 있습니다.
+ 
+
+1. 관리적 조치 : 내부관리계획 수립·시행, 정기적 직원 교육 등
+ 
+
+가. 내부관리계획의 수립 및 시행
+ 
+
+개인정보의 안전한 처리를 위하여 내부관리계획을 수립하고 시행하고 있습니다.
+ 
+
+나. 개인정보 취급 직원의 최소화 및 교육
+ 
+
+개인정보를 취급하는 직원을 담당자에 한정시켜 최소화하여 지정·관리하고 있으며, 취급직원을 대상으로 안전한 관리를 위한 교육을 실시하고 있습니다.
+ 
+
+2. 기술적조치
+ 
+
+가. 접근로그 생성
+ 
+
+개인정보를 검색, 조회할 경우에 해당요청자의 접근기록이 생성되어 보관됩니다. 이는 개인정보를 누가 언제 조회하였는지에 대한 내용을 기록하여 개인정보의 유출 등에 대한 자료로 사용 됩니다.
+ 
+
+나. 해킹 등에 대비한 기술적 대책
+ 
+
+해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신·점검을 하며 외부로부터 접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고 있습니다. 또한 네트워크 트래픽의 통제(Monitoring)는 물론 불법적으로 정보를 변경하는 등의 시도를 탐지하고 있습니다.
+ 
+
+다. 개인정보처리시스템 접근 제한
+ 
+
+개인정보를 처리하는 개인정보처리시스템에 대한 접근권한의 부여, 변경, 말소를 통하여 개인정보에 대한 접근통제를 위하여 필요한 조치를 하고 있으며 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있습니다.
+ 
+
+라. 개인정보의 암호화
+ 
+
+이용자의 비밀번호는 암호화 되어 저장 및 관리되고 있어, 본인만이알 수 있으며 중요한 데이터는 파일 및 전송 데이터를 암호화 하거나 파일 잠금 기능을 사용하는 등의 별도 보안기능을 사용하고 있습니다.
+ 
+
+마. 접속기록의 보관 및 위변조 방지
+ 
+
+개인정보처리시스템에 접속한 기록을 최소 6개월 이상 보관․관리하고 있으며, 접속 기록이 위변조 및 도난, 분실되지 않도록 안전하게 관리하고 있습니다.
+ 
+
+3. 물리적 조치
+ 
+
+가. 문서보안을 위한 잠금장치 사용
+ 
+
+개인정보가 포함된 서류, 보조저장매체 등을 잠금장치가 있는 안전한 장소에 보관하고 있습니다.
+ 
+
+나. 비인가자에 대한 출입 통제
+ 
+
+개인정보를 보관하고 있는 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.
+
+제12조 [개인정보 보호책임자]
+① 수원시는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+ 
+
+1. 개인정보 보호책임자
+ 
+
+가. 직       책 : 기획조정실장
+
+나. 성       명 : 조인상
+ 
+
+2. 개인정보보호 담당자
+ 
+
+가. 부  서  명 : 정보통신과
+
+나. 담  당  자 : 선민지
+
+다. 연  락  처 : 031-228-2342
+ 
+
+② 정보주체께서는 수원시의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다.
+ 
+
+③ 수원시는 정보주체의 문의에 대해 답변 또는 처리하겠습니다.
+
+제13조 [권익침해 구제방법]
+① 정보주체는 아래의 기관에 대해 개인정보 침해에 대한 피해구제, 상담 등을 문의하실 수 있습니다.
+ 
+
+② 아래의 기관은 수원시와는 별개의 기관으로서, 수원시의 자체적인 개인정보 불만처리, 피해구제 결과에 만족하지 못하시거나 보다 자세한 도움이 필요하시면 문의하여 주시기 바랍니다.
+ 
+
+1. 개인정보보호 종합포털 (행정안전부 운영)
+ 
+
+가. 소관업무 : 개인정보 침해사실 신고문의, 상담 신청, 자료제공
+
+나. 홈페이지 : www.privacy.go.kr
+
+다. 전      화 : (국번없이) 118
+ 
+
+2. 개인정보 침해신고센터 (한국인터넷진흥원 운영)
+ 
+
+가. 소관업무 : 개인정보 침해사실 신고, 상담 신청
+
+나. 홈페이지 : privacy.kisa.or.kr
+
+다. 전      화 : (국번없이) 118
+
+라. 주      소 : (58324) 전라남도 나주시 진흥길 9 한국인터넷진흥원
+ 
+
+3. 개인정보 분쟁조정위원회 (개인정보 보호위원회 운영)
+ 
+
+가. 소관업무 : 개인정보 분쟁조정신청, 집단분쟁조정(민사적 해결)
+
+나. 홈페이지 : www.kopico.go.kr
+
+다. 전      화 : (국번없이) 1833-6972
+
+라. 주      소 : (03171) 서울특별시 종로구 세종대로 209 정부서울청사 4층
+ 
+
+4. 경찰청 사이버안전국
+ 
+
+가. 소관업무 : 사이버범죄 신고, 상담 신청
+
+나. 홈페이지 : cyberbureau.police.go.kr
+
+다. 전      화 : (국번없이) 182
+ 
+
+5. 대검찰청 사이버범죄수사단
+ 
+
+가. 홈페이지 : www.spo.go.kr
+
+나. 전      화 : (국번없이) 1301
+ 
+
+③ 「개인정보보호법」제35조(개인정보의 열람), 제36조(개인정보의 정정·삭제), 제37조(개인정보의 처리정지 등)의 규정에 의한 정보주체의 요구에 대하여 공공기관의 장이 행한 처분 또는 부작위로 인하여 권리 또는 이익의 침해를 받은 정보주체는 행정심판법이 정하는 바에 따라 행정심판을 청구할 수 있습니다.
+ 
+
+※ 행정심판에 대해 자세한 사항은 행정심판위원회(http://www.simpan.go.kr) 홈페이지를 참고하시기 바랍니다.
+
+제14조 [영상정보처리기기 설치․운영]
+① 수원시가 설치․운영하는 영상정보처리기기의 설치근거․목적, 설치대수, 담당부서 등은 다음의 목록에서 안내하고 있습니다.
+ 
+
+※ 영상정보처리기기 목록 [다운로드]
+
+ 
+② 영상정보 확인 방법 및 장소 : 담당부서에 요구(목록 참조)
+ 
+
+③ 정보주체의 영상정보 열람 등 요구에 대한 조치는 개인영상정보 열람․존재확인 청구서로 신청하여야 하며, 정보주체 자신이 촬영된 경우 또는 명백히 정보주체의 생명․신체․재산 이익을 위해 필요한 경우에 한해 열람을 허용합니다.
+ 
+
+④ 영상정보 보호를 위한 기술적․관리적․물리적 조치 : 내부관리계획 수립, 접근통제 및 접근권한 제한, 영상정보의 안전한 저장․전송기술 적용, 처리기록 보관 및 위․변조 방지조치, 보관시설 마련 및 잠금장치 설치 등
+
+제15조 [개인정보 처리방침 변경]
+① 이 개인정보 처리방침은 2019년 1월부터 적용됩니다.
+ 
+
+② 이전의 개인정보 처리방침은 아래에서 확인하실 수 있습니다.
+ 
+
+1. 수원시 개인정보 취급방침 : 2009. 01. ~ 2013. 11. 적용
+2. 수원시 개인정보 취급방침 : 2013. 11. ~ 2014. 12. 적용
+3. 수원시 개인정보 취급방침 : 2015. 01. ~ 2017. 11. 적용
+4. 수원시 개인정보 취급방침 : 2017. 11. ~ 2018. 09. 적용
+5. 수원시 개인정보 취급방침 : 2018. 09. ~ 2019. 01. 적용</value>
+  </data>
+</root>
